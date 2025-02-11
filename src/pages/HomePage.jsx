@@ -9,8 +9,8 @@ import Product5 from "../assets/images/product-5.jpg";
 const HomePage = () => {
   return (
     <div className="homePage pb-10">
-      <div className="container mx-auto px-4">
-        <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-20 pt-32">
+      <div className="container mx-auto md:px-16 px-8">
+        <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-16 pt-32">
           <div className="box">
             <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
               Ngopi dulu, urusan besok
@@ -31,13 +31,13 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="about grid md:grid-cols-2 grid-cols-1 items-center md:gap-20 gap-10 pt-18" id="about">
+        <div id="about" className="about grid md:grid-cols-2 grid-cols-1 items-center md:gap-20 gap-10 pt-32">
           <div className="box md:order-1 order-2">
-            <img src={AboutImage} alt="About Image" className="lg:w-[500px] w-[400px] md:m-0 mx-auto" />
+            <img src={AboutImage} alt="About Image" className="lg:w-[420px] w-[280px] md:m-0 mx-auto" />
           </div>
           <div className="box md:order-2 order-1">
             <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
-              About
+              Tentang
               <span className="font-bold text-lime-500"> Kasihjalan.</span>
             </h1>
             <p className="text-base/loose">
@@ -47,13 +47,10 @@ const HomePage = () => {
               cerita ngalir bareng espresso, tawa melebur di atas cappuccino, dan inspirasi lahir dari tiap
               tetes manual brew.
             </p>
-            <p className="text-base/loose text-lime-500 font-bold">
-              Kami bukan sekadar warung kopi, kami adalah pelarian terbaik dari realitas yang membosankan.
-            </p>
           </div>
         </div>
 
-        <div className="Fasilitas pt-18" id="facilities">
+        <div className="Fasilitas pt-32" id="facilities">
           <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-7">Fasilitas</h1>
           <p className="text-center">
             Kami tahu, orang datang ke warung kopi bukan cuma buat ngopi. Kadang buat kerja, kadang buat nyusun
@@ -64,7 +61,7 @@ const HomePage = () => {
               <i className="ri-number-1 text-3xl text-white"></i>
               <h3 className="text-xl font-bold text-white mt-6 mb-2">Ruang Indoor & Outdoor</h3>
               <p className="text-white text-base/tight">
-                Mau kerja serius atau ngobrol ngalor-ngidul? Bebas!.
+                Mau kerja serius atau ngobrol ngalor-ngidul? Bebas.
               </p>
             </div>
             <div className="box bg-sky-400 rounded-lg shadow p-4">
@@ -97,29 +94,29 @@ const HomePage = () => {
             Kopi di sini bukan sembarang kopi. Kami nyeduhnya pake cinta, niat, dan sedikit harapan
             biar kamu balik lagi. Coba aja:
           </p>
-          <div className="product-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={Product1} alt="Product Image" className="w-full h-[450px]" />
+          <div className="product-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-16">
+            <div className="box p-3 bg-white shadow rounded-lg">
+              <img src={Product1} alt="Product Image" className="w-full h-[410px] mx-auto rounded-lg" />
               <h3 className="text-xl font-bold mt-6 mb-2">Product 1</h3>
               <p>Sit anim dolore elit pariatur anim consectetur sit amet sit ad veniam irure.</p>
             </div>
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={Product2} alt="Product Image" className="w-full h-[450px]" />
+            <div className="box p-3 bg-white shadow rounded-lg">
+              <img src={Product2} alt="Product Image" className="w-full h-[410px] mx-auto rounded-lg" />
               <h3 className="text-xl font-bold mt-6 mb-2">Product 2</h3>
               <p>Sit anim dolore elit pariatur anim consectetur sit amet sit ad veniam irure.</p>
             </div>
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={Product3} alt="Product Image" className="w-full h-[450px]" />
+            <div className="box p-3 bg-white shadow rounded-lg">
+              <img src={Product3} alt="Product Image" className="w-full h-[410px] mx-auto rounded-lg" />
               <h3 className="text-xl font-bold mt-6 mb-2">Product 3</h3>
               <p>Sit anim dolore elit pariatur anim consectetur sit amet sit ad veniam irure.</p>
             </div>
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={Product4} alt="Product Image" className="w-full h-[450px]" />
+            <div className="box p-3 bg-white shadow rounded-lg">
+              <img src={Product4} alt="Product Image" className="w-full h-[410px] mx-auto rounded-lg" />
               <h3 className="text-xl font-bold mt-6 mb-2">Product 4</h3>
               <p>Sit anim dolore elit pariatur anim consectetur sit amet sit ad veniam irure.</p>
             </div>
-            <div className="box p-2 bg-white shadow rounded-lg">
-              <img src={Product5} alt="Product Image" className="w-full h-[450px]" />
+            <div className="box p-3 bg-white shadow rounded-lg">
+              <img src={Product5} alt="Product Image" className="w-full h-[410px] mx-auto rounded-lg" />
               <h3 className="text-xl font-bold mt-6 mb-2">Product 5</h3>
               <p>Sit anim dolore elit pariatur anim consectetur sit amet sit ad veniam irure.</p>
             </div>
