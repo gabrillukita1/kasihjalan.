@@ -1,5 +1,5 @@
-import HeroImage from "../assets/images/Hero.svg";
-import AboutImage from "../assets/images/About.svg";
+import HeroImage from "../assets/images/hero.svg";
+import AboutImage from "../assets/images/about.svg";
 import Product1 from "../assets/images/product-1.jpg";
 import Product2 from "../assets/images/product-2.jpg";
 import Product3 from "../assets/images/product-3.jpg";
