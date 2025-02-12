@@ -10,7 +10,7 @@ const HomePage = () => {
   return (
     <div className="homePage pb-10">
       <div className="container mx-auto md:px-16 px-8">
-        <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-16 pt-32">
+        <div className="hero grid md:grid-cols-2 grid-cols-1 items-center gap-20 md:pt-32 pt-32">
           <div className="box">
             <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
               Ngopi dulu, urusan besok
